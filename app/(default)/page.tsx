@@ -16,7 +16,6 @@ export default function Home() {
       <Hero />
       <About />
       <PricingDetails />
-      <Profile />
       <Contact />
     </>
   )
