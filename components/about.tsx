@@ -83,7 +83,7 @@ function Steps() {
         },
         {
             no: 2,
-            title: "Request review",
+            title: "Review of Appointment",
             description: "We will then review the request and judge if we can contribute meaningfully to your problem. We will get back to you with scheduling and payment details"
         },
         {
@@ -99,7 +99,7 @@ function Steps() {
         {
             no: 5,
             title: "Join the meet",
-            description: "Make sure to join the meeting on time, we will discuss your issues and fix them within the slot."
+            description: "Join the meeting on time, we will discuss your issues and fix them within the slot."
         }
     ]
     return <nav aria-label="Progress" className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl rounded-2xl bg-gray-40 p-10 text-center'>
