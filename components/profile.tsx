@@ -13,7 +13,7 @@ export default function Profile() {
               go to people in our friends and family when it comes to technology. Just everyday common folk.
             </p>
           </div>
-            <div className="flex flex-col lg:flex-row relative max-w-6xl mx-auto px-4 sm:px-6 place-content-evenly">
+            <div className="flex justify-evenly items-start flex-col lg:flex-row relative max-w-6xl mx-auto px-4 sm:px-6 align-start">
                 <ProfileCardSidhin />
                 <ProfileCardSherin />
             </div>
@@ -85,7 +85,13 @@ function ProfileCardSidhin() {
                         <div className="flex flex-wrap justify-center">
                             <div className="w-full px-6">
                                 <p className="mb-4 font-light leading-relaxed text-gray-600 ">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin turpis orci, maximus sed purus a, cursus scelerisque purus. Morbi molestie, odio at sagittis rhoncus, felis massa iaculis mi, quis molestie erat ipsum vel risus.
+                                    I am an experienced software engineer. Been an avid
+                                    technolgy enthusiast all my life. I love helping people out with their
+                                    nitty gritties.
+                                </p>
+                                <p className="mb-4 font-light leading-relaxed text-gray-600 ">
+                                    I love swiming and gardening. But my real passion is music. 
+                                    Ask me about it!
                                 </p>
                             </div>
                         </div>

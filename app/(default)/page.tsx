@@ -18,7 +18,6 @@ export default function Home() {
       <PricingDetails />
       <Profile />
       <Contact />
-      <Schedule />
     </>
   )
 }

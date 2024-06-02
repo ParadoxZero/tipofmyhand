@@ -46,9 +46,9 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="#schedule" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
+                <button onClick={() => window.open('https://forms.office.com/r/srnesT6nPr', '_blank')} className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
                   Schedule Consultation
-                </Link>
+                </button>
               </li>
             </ul>
 

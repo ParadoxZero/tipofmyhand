@@ -11,8 +11,9 @@ export default function Banner() {
       {bannerOpen && (
         <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
           <div className="bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
-            <div className='text-slate-500 inline-flex'><a className="font-medium hover:underline text-slate-50" href="#schedule" rel="noreferrer">
-              Schedule a Consult</a> </div>
+            <div className='text-slate-500 inline-flex'>
+              <button className="font-medium hover:underline text-slate-50" onClick={() => window.open('https://forms.office.com/r/srnesT6nPr', '_blank')} rel="noreferrer">
+              Schedule a Consult</button> </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
               <span className="sr-only">Close</span>
               <svg className="w-4 h-4 shrink-0 fill-current" viewBox="0 0 16 16">

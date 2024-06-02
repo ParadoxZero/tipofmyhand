@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div className="relative flex items-top justify-center bg-white sm:items-center sm:pt-0" id="contact">
+        <div className="relative flex items-top justify-center bg-white sm:items-center py-5" id="contact">
             <div className="lg:px-52 sm:px-10 py-10 mr-2 bg-gray-100 border shadow-l rounded-xl">
                 <h1 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight">
                     Get in touch
