@@ -77,27 +77,27 @@ function CheckLists() {
 function Steps() {
     const steps = [
         {
-            no:1,
+            no: 1,
             title: "Request appointment",
             description: "Fill in the request form with your query and contact details."
         },
         {
-            no:2,
+            no: 2,
             title: "Request review",
             description: "We will then review the request and judge if we can contribute meaningfully to your problem. We will get back to you with scheduling and payment details"
         },
         {
-            no:3,
+            no: 3,
             title: "Schedule appointment",
             description: "We will send an email with steps on how to schedule your appointment based on your convinience. Select a your prefered slot. You will then recieve a confirmation email containing video chat meeting link for the appointment."
         },
         {
-            no:4,
+            no: 4,
             title: "Finish payment",
             description: "The email will contain payment and invoice link. Make sure to complete the payment before the appointment to avoid cancellation."
         },
         {
-            no:5,
+            no: 5,
             title: "Join the meet",
             description: "Make sure to join the meeting on time, we will discuss your issues and fix them within the slot."
         }
@@ -106,17 +106,17 @@ function Steps() {
         <ol role="list" className="space-y-4 md:flex md:space-x-8 md:space-y-0">
             {steps.map((step) => (
                 <li className="md:flex-1">
-                    <h2 className="text-base font-semibold leading-7 text-blue-500 my-5">Step: {step.no}</h2>
+                    <h2 className="text-base font-semibold leading-7 text-blue-500 my-5 text-left">Step: {step.no}</h2>
                     <span className="group flex flex-col border-l-4 border-blue-300  py-2 pl-4 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4">
                         <div className='rounded flex flex-col'>
-                            <dt className="text-base font-semibold leading-7 text-gray-900">{step.title}</dt>
+                            <dt className="text-base font-semibold leading-7 text-gray-900 text-left">{step.title}</dt>
                             <dd className="mt-2 text-base leading-7 text-gray-600 text-left">
-                               {step.description}
+                                {step.description}
                             </dd>
                         </div>
                     </span>
                 </li>
-                ))}
+            ))}
         </ol>
     </nav>
 }

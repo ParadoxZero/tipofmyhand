@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 
 import Link from 'next/link'
 import Logo from './logo'
-import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
 
 export default function Header() {
@@ -37,20 +36,17 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="#About" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</Link>
-              </li>
-              <li>
-                <Link href="#testemonials" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
-                  Testemonials
+                <Link href="#pricing" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  Pricing
                 </Link>
               </li>
               <li>
-                <Link href="#Contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                <Link href="#contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="#Schedule" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
+                <Link href="#schedule" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
                   Schedule Consultation
                 </Link>
               </li>

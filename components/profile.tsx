@@ -1,3 +1,7 @@
+import SherinImage from '@/public/images/sherin.jpg'
+import SidhinImage from '@/public/images/sidhin.jpg'
+import Image from 'next/image'
+
 export default function Profile() {
 
     return (
@@ -25,7 +29,7 @@ function ProfileCardSidhin() {
                     <div className="flex flex-wrap justify-center">
                         <div className="flex justify-center w-full">
                             <div className="relative">
-                                <img src="https://sidhin.in/profile-pic-small.JPG" className="rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
+                                <Image src={SidhinImage} alt='Sidhin profile' className="rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
                             </div>
                         </div>
                     </div>
@@ -110,7 +114,7 @@ function ProfileCardSherin() {
                     <div className="flex flex-wrap justify-center">
                         <div className="flex justify-center w-full">
                             <div className="relative">
-                                <img src="https://sidhin.in/profile-pic-small.JPG" className="rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
+                                <Image alt="Sherin's profile" src={SherinImage} className="rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
                             </div>
                         </div>
                     </div>

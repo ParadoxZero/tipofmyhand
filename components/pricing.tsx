@@ -78,7 +78,7 @@ export default function PricingDetails() {
   }, []) 
 
   return (
-    <section className="relative">
+    <section className="relative" id='pricing'>
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
